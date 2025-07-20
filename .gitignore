@@ -1,0 +1,44 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider/JetBrains
+.idea/
+
+# ASP.NET secrets
+**/secrets.json
+
+# .NET Core tooling
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# Deployment
+publish/
+*.pubxml
+*.publish.xml
+
+# Environment files (optional)
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Azure config (optional, if you’re storing local publish profiles)
+Properties/launchSettings.json
